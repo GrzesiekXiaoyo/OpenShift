@@ -6,9 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWildFlyController
 {
-	//	@Autowired
-	//	private HelloWildFlyService service;
-
 	@RequestMapping("hello")
 	public String sayHello()
 	{
